@@ -27,7 +27,7 @@ data:extend(
     name = "space-platform-foundation",
     energy_required = settings.startup["better-space-platform-recipe-energy-required"].value,
     enabled = false,
-    category = "crafting",
+    categories = {"crafting"},
     ingredients =
     {
       {type = "item", name = "steel-plate", amount = settings.startup["better-space-platform-recipe-steel-cost"].value},

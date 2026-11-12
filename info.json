@@ -1,19 +1,22 @@
 {
-  "name": "better-space-platform",
-  "version": "0.0.1",
-  "title": "Better Space Platform",
-  "author": "Dreamshift",
+  "name": "better-space-platform-updated",
+  "version": "0.0.2",
+  "title": "Better Space Platform: Updated",
+  "author": "Dreamshift; johnmart19 / FactorioMods",
   "dependencies": [
-    "base >= 2.0.0", 
+    "base >= 2.1.24",
     "space-age >= 2.0.0"
   ],
-   "description": "Highly configurable space platform foundation tiles. By default it makes them 4x cheaper, craft 4x faster, and 4x as many fit on a rocket. I made this as a rebellion against the vanilla recipe cost.",
+  "description": "Highly configurable space platform foundation tiles. By default it makes them 4x cheaper, craft 4x faster, and 4x as many fit on a rocket. I made this as a rebellion against the vanilla recipe cost.",
   "space_travel_required": true,
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "package": {
     "ignore": [
       "exclude-from-package/*",
       "*~"
     ]
-  }
+  },
+  "migrates_from": [
+    "better-space-platform"
+  ]
 }
